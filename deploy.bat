@@ -7,8 +7,8 @@ ECHO Deploying updates to GitHub...
 
 cd blog
 
-@REM @REM Build the project
-@REM hugo -t hugo-hello-programmer-theme
+@REM Build the project
+hugo -t hugo-hello-programmer-theme
 
 @REM Define commit message
 SET msg=rebuilding site %DATE% %TIME%
@@ -17,11 +17,11 @@ IF defined param (
 )
 echo %msg%
 
-@REM @REM Submodule commit
+@REM Submodule commit
 cd public
-@REM git add .
-@REM git commit -m "%msg%"
-@REM git push origin main
+git add .
+git commit -m "%msg%"
+git push origin main
 
 @REM Main blog commit
 cd ../..
