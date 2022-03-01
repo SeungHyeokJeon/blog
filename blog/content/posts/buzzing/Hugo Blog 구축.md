@@ -3,7 +3,8 @@ title: "Hugo Blog 구축 - 수정중"
 date: 2022-03-01
 categories: ["buzzing"]
 tags: ["project", "blog", "hugo", "github"]
-cover: "/assets/posts/buzzing/20220301_HugoBlog구축/thumbnail.png"
+# cover: "/assets/posts/buzzing/20220301_HugoBlog구축/thumbnail.png"
+cover: "/images/buzzing/20220301_HugoBlog구축/thumbnail.png"
 draft: false
 ---
 
@@ -179,10 +180,8 @@ PS ../blog> ./deploy.bat (커밋내용)
 ```
 
 ## Reference
+[https://gohugo.io/getting-started/installing/](https://gohugo.io/getting-started/installing/)
+
 [https://velog.io/@mellonggo/Github-페이지-블로그-만들기-with-Hugo](https://velog.io/@mellonggo/Github-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-Hugo)
 
-[https://gohugo.io/getting-started/installing/](https://gohugo.io/getting-started/installing/)
-
 [https://gurumee92.github.io/2020/08/블로그-구축기-1-hugo-github으로-개인-블로그-만들기/](https://gurumee92.github.io/2020/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EA%B8%B0-1-hugo-github%EC%9C%BC%EB%A1%9C-%EA%B0%9C%EC%9D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
-
-[https://gohugo.io/getting-started/installing/](https://gohugo.io/getting-started/installing/)
