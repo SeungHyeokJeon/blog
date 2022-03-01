@@ -1,5 +1,5 @@
 baseURL = "https://SeungHyeokJeon.github.io/"
-title = "블로그제목"
+title = "여기는 블로그입니다."
 
 languageCode = "kr-ko"
 DefaultContentLanguage = "kr"
@@ -9,8 +9,8 @@ theme = "hugo-hello-programmer-theme"
 paginate = 7
 
 [author]
-    name = "이름"
-    email = "이메일"
+    name = "SeungHyeok Jeon"
+    email = "sdkazx2717@gmail.com"
 
 [params]
-    description = "블로그 설명"
+    description = "개발 공부 관련 포스트를 업로드하는 블로그입니다."
