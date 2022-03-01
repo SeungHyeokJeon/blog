@@ -1,22 +1,22 @@
 ---
-title: "Hugo Blog 구축"
+title: "Hugo Blog 구축 - 수정중"
 date: 2022-03-01
 categories: ["buzzing"]
 tags: ["project", "blog", "hugo", "github"]
-cover: "https://blog.lulab.net/images/projects/2019-05-hugo-hello-programmer-theme-v2_projects.png"
+cover: "/assets/posts/buzzing/20220301_HugoBlog구축/thumbnail.png"
 draft: false
 ---
 
 ## Hugo 설치
 
 > 글에 들어가기 앞서, 해당 설치환경은 윈도우 11 기준으로 작성되었음을 알립니다.
-> 
+
 
 ## 세팅 전 필수 프로그램 설치
 
 [Git](https://git-scm.com/)
 
-[Downloads](https://go.dev/dl/)
+[Go](https://go.dev/dl/)
 
 해당 사이트에서 Git과 Go를 다운받습니다.
 
@@ -34,7 +34,7 @@ Repository Name은 `github닉네임.github.io`와 `blog` 로 생성합니다.
 
 주의해야할 점은 Repository 생성 시 **README.md를 만들지 말아야합니다**. 나중에 충돌이 발생할 수 있습니다.
 
-![github_01](/assets/posts/buzzing/20220301_HugoBlog구축/github_01.png)
+![github_01](/assets/posts/buzzing/20220301_HugoBlog구축/blog_01.png)
 
 ![github_02](/assets/posts/buzzing/20220301_HugoBlog구축/github_02.png)
 
