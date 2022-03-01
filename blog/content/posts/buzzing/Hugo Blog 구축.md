@@ -3,7 +3,6 @@ title: "Hugo Blog 구축 - 수정중"
 date: 2022-03-01
 categories: ["buzzing"]
 tags: ["project", "blog", "hugo", "github"]
-# cover: "/assets/posts/buzzing/20220301_HugoBlog구축/thumbnail.png"
 cover: "/images/buzzing/20220301_HugoBlog구축/thumbnail.png"
 draft: false
 ---
@@ -35,9 +34,9 @@ Repository Name은 `github닉네임.github.io`와 `blog` 로 생성합니다.
 
 주의해야할 점은 Repository 생성 시 **README.md를 만들지 말아야합니다**. 나중에 충돌이 발생할 수 있습니다.
 
-![github_01](/assets/posts/buzzing/20220301_HugoBlog구축/blog_01.png)
+![github_01](/images/buzzing/20220301_HugoBlog구축/github_01.png)
 
-![github_02](/assets/posts/buzzing/20220301_HugoBlog구축/github_02.png)
+![github_02](/images/buzzing/20220301_HugoBlog구축/github_02.png)
 
 생성되었다면 `git clone`을 통해 컴퓨터에 만든 저장소를 복제합니다.
 
@@ -112,7 +111,7 @@ PS ../blog/blog> hugo server
 
 https://localhost:1313 또는 https://127.0.0.1:1313 으로 접속할 수 있습니다.
 
-![blog](/assets/posts/buzzing/20220301_HugoBlog구축/blog_01.png)
+![blog](/images/buzzing/20220301_HugoBlog구축/blog_01.png)
 
 ## Git Repository 연결 및 배포 스크립트 작성
 
