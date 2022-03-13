@@ -1,5 +1,5 @@
 ---
-title: "Hugo Blog 구축 - 수정중"
+title: "Hugo Blog 구축"
 date: 2022-03-01
 categories: ["buzzing"]
 tags: ["project", "blog", "hugo", "github"]
@@ -7,12 +7,10 @@ cover: "/images/buzzing/20220301_HugoBlog구축/thumbnail.png"
 draft: false
 ---
 
-## Hugo 설치
-
-> 글에 들어가기 앞서, 해당 설치환경은 윈도우 11 기준으로 작성되었음을 알립니다.
+> 글에 들어가기 앞서, 해당 설치환경은 윈도우 10, 11 기준으로 작성되었음을 알립니다.
 
 
-## 세팅 전 필수 프로그램 설치
+## 구축 전 필수 프로그램 설치
 
 [Git](https://git-scm.com/)
 
@@ -177,6 +175,10 @@ git push origin main
 ```
 PS ../blog> ./deploy.bat (커밋내용)
 ```
+
+배포를 완료했다면 블로그로 들어가 정상적으로 build 되었는지 확인해봅니다.
+
+`https://nickname.github.io`
 
 ## Reference
 [https://gohugo.io/getting-started/installing/](https://gohugo.io/getting-started/installing/)
