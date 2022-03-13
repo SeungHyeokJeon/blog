@@ -37,14 +37,15 @@ Hugo Blog에서 이미지나 동영상 등 첨부파일이 렌더링 되는 위�
         ├── archetypes
         ...
         ├── static
-            └── buzzing
-                ├── 20220313_HugoBlog글작성하기
-                    └── image.jpeg
-                ...
+            └── sources
+                └── buzzing
+                    ├── 20220313_HugoBlog글작성하기
+                        └── image.jpeg
+                    ...
         ...
         └── comfig.toml
 ```
-보통은 `static`아래에 `images`나 `videos` 같은 폴더로 분류하는게 정석이지만, 저는 `static` 아래에 `category`와 `게시글`로 분류하여 파일을 관리하고 있습니다.
+보통은 `static`아래에 `images`나 `videos` 같은 폴더로 분류하는게 정석이지만, 저는 `static` 아래에 렌더링 된 후에 파일들을 쉽게 보기 위해 `sources`아래에 `category`와 `게시글`로 분류하여 파일을 관리하고 있습니다.
 
 ## 기본 정보 작성
 
@@ -74,19 +75,13 @@ draft: false
 이미지를 삽입하기 위해서는 `static` 아래에 있는 경로와 함께 파일명을 적어주어야 합니다.
 
 ```
-<!-- image 경로 /blog/static/buzzing/20220313_HugoBlog글작성하기/image.png -->
-![image](/buzzing/20220313_HugoBlog글작성하기/github_02.png)
+<!-- image 경로 /blog/static/sources/buzzing/20220313_HugoBlog글작성하기/image.png -->
+![image](/sources/buzzing/20220313_HugoBlog글작성하기/image.png)
 ```
 이미지의 경로는 static까지의 경로는 적지 않고, static 아래의 경로부터 적어줍니다.
 
-이유는 Hugo Blog 렌더링을 진행하면 
-
-![image](/buzzing/20220313_HugoBlog글작성하기/github_02.png)
+이유는 Hugo Blog 렌더링을 진행하면 static이라는 폴더 안에 있는 파일들을 최상위 폴더에 집어넣기 때문에 경로상에 `/static`이 들어가게되면 파일을 인식하지 못하게됩니다.
 
 
 ## Reference
-[https://gohugo.io/getting-started/installing/](https://gohugo.io/getting-started/installing/)
-
-[https://velog.io/@mellonggo/Github-페이지-블로그-만들기-with-Hugo](https://velog.io/@mellonggo/Github-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-Hugo)
-
-[https://gurumee92.github.io/2020/08/블로그-구축기-1-hugo-github으로-개인-블로그-만들기/](https://gurumee92.github.io/2020/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EA%B8%B0-1-hugo-github%EC%9C%BC%EB%A1%9C-%EA%B0%9C%EC%9D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
+[https://gohugo.io/content-management/shortcodes](https://gohugo.io/content-management/shortcodes)
