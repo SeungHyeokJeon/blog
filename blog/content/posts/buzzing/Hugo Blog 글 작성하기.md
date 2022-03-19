@@ -3,7 +3,7 @@ title: "Hugo Blog 글 작성하기"
 date: 2022-03-13
 categories: ["buzzing"]
 tags: ["project", "blog", "hugo", "github"]
-# cover: "/images/buzzing/20220301_HugoBlog구축/thumbnail.png"
+# cover: 
 draft: false
 ---
 
